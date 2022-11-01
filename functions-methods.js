@@ -8,7 +8,7 @@
 // getEmailDomain("n.eeken@novi-education.nl") geeft novi-education.nl
 // getEmailDomain("t.mellink@novi.nl") geeft novi.nl
 // getEmailDomain("a.wiersma@outlook.com") geeft outlook.com
-console.log("Opdracht 1:")
+console.log("Opdracht 1:");
 function getMailDomain (email) {
     const place = email.indexOf("@");
     return email.substring (place);
